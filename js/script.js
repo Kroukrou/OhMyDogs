@@ -24,7 +24,7 @@ $(()=>{
         
         $("#dogPath > .img-fluid").fadeOut()
 
-        $('#dogPath > .img-fluid').attr('src',"../img/patte-chien-bleu-os.png").fadeIn()
+        $('#dogPath > .img-fluid').attr('src',"./img/patte-chien-bleu-os.png").fadeIn()
     
     })
    
