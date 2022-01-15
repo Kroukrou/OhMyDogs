@@ -1,0 +1,226 @@
+/* general */
+
+.container {
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* heading */
+
+.heading .container-fluid .container {
+    
+    font-family: 'Merienda';
+    font-size: 2em;
+    font-style: italic;
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 750px){
+
+#text p{
+    
+        font-size: 40%;
+        transform: translateY(-130%);
+    
+}
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1100px){
+
+    #text p{
+        
+        font-size: 50%;
+        transform: translateY(-180%);
+        
+    }
+    
+}
+
+@media screen and (min-width: 1100px) and (max-width: 2000px){
+
+    #text p{
+            
+        font-size: 100%;
+        transform: translateY(-130%);
+            
+    }
+        
+}
+    
+
+.heading .container-fluid:last-child {
+    
+    font-family: 'Merienda';
+    font-size: 5em;
+    height: auto;
+    
+}
+
+.carousel-item{
+    
+    height: 40em;
+    width: 80em;
+    transform: translateX(-22%);
+    
+}
+
+.subheading{
+
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+    
+}
+
+.subheading p{
+    
+    font-family: 'Merianda'; 
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+label{
+
+ font-weight: bold;
+
+}
+
+
+/* description */
+
+section{
+    
+    background-color: rgb(240,240,240);
+
+} 
+
+form{
+
+    border: 1px solid #ddd;
+    border-radius: 1% / 2%;
+    padding: .01em 2em 2em 2em; 
+     
+}
+
+#details{
+
+    margin-right: 2em;
+   
+}
+
+#details h1{
+    
+    font-family: 'Merianda';
+    font-size: 5em;
+
+}
+
+#details p{
+    
+    font-family: 'Merianda';
+    font-size: 2em;
+    padding: 0 2%;
+    border-top: 1px solid gray;
+    
+} 
+
+@media screen and (min-width: 0px) and (max-width: 992px){
+
+   
+
+     #divPathDog{
+    
+        background-color: #7885A5;
+        height: 100%;
+      
+        
+    } 
+    
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1302px){
+
+        #divPathDog{
+
+            background-color:#7885A5;
+            height: 17em;
+            transform: translateY(50%);
+            display: flex;
+            align-items: center;
+
+    
+        }
+
+}
+
+@media screen and (min-width: 1302px) and (max-width: 2000px){
+
+    #divPathDog{
+
+        background-color:#7885A5;
+        height: 24em;
+        transform: translateY(50%);
+        display: flex;
+        align-items: center;
+
+
+    }
+
+}
+
+/* footer */
+footer{
+
+    width: 100%;
+
+}
+
+@media screen and (min-width: 1199px) and (max-width: 1400px){
+
+    footer{
+
+        width: 104%;
+    
+    }
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1800px){
+
+    footer{
+
+        width: 110%;
+    
+    }
+
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2400px){
+
+    footer{
+
+        width: 130%;
+    
+    }
+
+}
+
+footer p{
+    
+    font-family: 'Merianda';
+    font-size: 2em;
+ 
+   
+
+}
